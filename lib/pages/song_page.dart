@@ -11,7 +11,7 @@ class SongPage extends StatelessWidget {
         .remainder(60)
         .toString()
         .padLeft(2, '0');
-    String formattedTime = "${duration.inMinutes}:${twoDigitSeconds}";
+    String formattedTime = "${duration.inMinutes}:$twoDigitSeconds";
 
     return formattedTime;
   }
